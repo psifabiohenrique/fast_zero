@@ -6,8 +6,9 @@ authors = ["Fábio Henrique <psifabiohenrique@outlook.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.11"
 fastapi = "^0.111.0"
+pydantic = {extras = ["email"], version = "^2.7.4"}
 
 
 [tool.poetry.group.dev.dependencies]
